@@ -1,6 +1,6 @@
 {
   "name": "github-image-commenter",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "comment on pull request with image",
   "main": "index.js",
   "scripts": {
@@ -22,10 +22,13 @@
   },
   "homepage": "https://github.com/bcoe/github-image-commenter#readme",
   "dependencies": {
+    "@google-cloud/storage": "^4.7.0",
+    "@google-cloud/tasks": "^2.0.0",
     "@octokit/auth-app": "^2.4.5",
     "@octokit/rest": "^17.3.0",
-    "jsonwebtoken": "^8.5.1",
-    "node-fetch": "^2.6.0"
+    "node-fetch": "^2.6.0",
+    "uuid": "^7.0.3",
+    "yauzl": "^2.10.0"
   },
   "devDependencies": {
     "body-parser": "^1.19.0",
