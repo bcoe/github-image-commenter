@@ -1,0 +1,35 @@
+{
+  "name": "github-image-commenter",
+  "version": "1.0.0",
+  "description": "comment on pull request with image",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard",
+    "fix": "standard --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bcoe/github-image-commenter.git"
+  },
+  "keywords": [
+    "image",
+    "commenter"
+  ],
+  "author": "Ben Coe <bencoe@google.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/bcoe/github-image-commenter/issues"
+  },
+  "homepage": "https://github.com/bcoe/github-image-commenter#readme",
+  "dependencies": {
+    "@octokit/auth-app": "^2.4.5",
+    "@octokit/rest": "^17.3.0",
+    "jsonwebtoken": "^8.5.1",
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "standard": "^14.3.3"
+  }
+}
