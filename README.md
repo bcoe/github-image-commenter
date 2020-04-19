@@ -7,6 +7,8 @@ fails.
 Run as a [Google Cloud Function](https://cloud.google.com/functions/), backed
 by a corresponding [GitHub App](https://developer.github.com/v3/apps/).
 
+<img width="500" src="screen.png">
+
 ## License
 
 Apache-2.0

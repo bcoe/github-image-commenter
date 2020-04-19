@@ -109,7 +109,7 @@ async function githubImageCommenter (req, res) {
         comment += `**${image.name}**\n\n![${image.name}](https://storage.googleapis.com/${PUBLIC_BUCKET}/${image.sha}.png)\n\n`
       }
     }
-    comment += 'See [DEV_DOCS.md] for tips on running tests locally.'
+    comment += 'See **DEV_DOCS.md** for tips on running tests locally.'
 
     // Actually leave a comment on the pull request:
     const [owner, repo] = body.repository.split('/')
